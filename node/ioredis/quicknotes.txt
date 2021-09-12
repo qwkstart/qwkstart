@@ -1,0 +1,21 @@
+Node.js ioredis starter
+
+## Prerequisites:
+* node.js
+* npm
+
+## Quickly install pre-requisites
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source .bashrc
+nvm install v16
+```
+
+## Next
+
+Ensure redis-server is running on your local computer, then:
+
+```
+npm install
+node index.js
+```
