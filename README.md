@@ -11,5 +11,3 @@ curl -s qwkstart.com/node/express/hello | tar kxzf - && cat quickstart.txt
 ```
 curl qwkstart.com
 ```
-
-
