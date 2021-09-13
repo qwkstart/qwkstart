@@ -1,0 +1,24 @@
+CDK 2.0 Lambda Hello World
+
+## Prerequisites
+
+Please note you'll need an AWS account configured locally (aws configure). Alternatively, you could launch a Cloud9 dev
+environment with suitable permissions.
+
+## Quickly install Node.js pre-requisites
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source .bashrc
+nvm install v16
+```
+
+## Next
+
+Install CDK v2 & required libraries
+
+```
+npm install -g aws-cdk@next
+npm install
+cdk bootstrap
+cdk deploy
+```
